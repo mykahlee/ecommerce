@@ -41,7 +41,7 @@
   </div>
 
   <div class="form-group">
-    <%= form.select :category_id, @categories.collect{ |c| [c.name,c.id]},{include_blank: "Please select category"} %>
+    <%= form.select :category_id, @categories.collect{ |c| [c.name,c.id]},{ include_blank: "Please select category"} %>
  
   </div>
 
